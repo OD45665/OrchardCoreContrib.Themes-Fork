@@ -43,3 +43,5 @@ If you would like to add your theme and share it with the community, simply:
 4. Add a reference to your theme into `OrchardCoreContrib.Themes.Web`, so your lovely theme will be available to everyone
 
 5. Add your cool theme and send a PR
+
+![](ResumeTheme.jpeg)

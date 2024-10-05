@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<VersionPrefix>1.2.0</VersionPrefix>
+		<Authors>The Orchard Core Contrib Team</Authors>
+		<Company />
+		<Description>A Free Bootstrap Theme by Start Bootstrap.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/OrchardCoreContrib/OrchardCoreContrib.Themes</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/OrchardCoreContrib/OrchardCoreContrib.Themes</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<PackageTags>Orchard Core, Orchard Core Contrib, Themes, Portfolio</PackageTags>
+		<PackageReleaseNotes>https://github.com/OrchardCoreContrib/OrchardCoreContrib.Themes/releases</PackageReleaseNotes>
+		<PackageId>OrchardCoreContrib.Themes.StylishPortfolio</PackageId>
+		<PackageIcon>icon.png</PackageIcon>
+		<Product>Orchard Core Contrib Stylish Portfolio Theme</Product>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Copyright>2019 Orchard Core Contrib</Copyright>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="../../images/icon.png" Pack="true" PackagePath="icon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="OrchardCore.Theme.Targets" Version="1.8.3" />
+		<PackageReference Include="OrchardCore.ContentManagement" Version="1.8.3" />
+		<PackageReference Include="OrchardCore.DisplayManagement" Version="1.8.3" />
+		<PackageReference Include="OrchardCore.ResourceManagement" Version="1.8.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="wwwroot\" />
+	</ItemGroup>
+
+</Project>

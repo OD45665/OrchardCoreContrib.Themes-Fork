@@ -1,4 +1,18 @@
 # OrchardCoreContrib.Themes
+## Fehlerhafte Repositorien
+- nur Das Resume Theme ist funktionsfähig
+- Modern Business Theme und Stylish Portfolio Theme sind
+fehlerhaft
+
+OD45665 hat folgende Fehler eröffnet:
+
+## Stylish Portfolio Theme
+- https://github.com/OrchardCoreContrib/OrchardCoreContrib.Themes/issues/25
+
+- https://github.com/OrchardCoreContrib/OrchardCoreContrib.Themes/issues/24
+## Modern Business Theme
+- https://github.com/OrchardCoreContrib/OrchardCoreContrib.Themes/issues/26
+
 
 ![Orchard Core Contrib](images/OCC.png)
 

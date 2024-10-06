@@ -26,12 +26,12 @@ namespace OrchardCoreContrib.Themes.StylishPortfolio
 
             _manifest
                 .DefineScript("stylish-portfolio")
-                .SetUrl("~/OrchardCoreContrib.Themes.StylishPortfolio/js/scripts.js")
+                .SetUrl("/OrchardCoreContrib.Themes.StylishPortfolio/js/scripts.js")
                 .SetVersion("1.0.0");
 
             _manifest
                 .DefineStyle("stylish-portfolio")
-                .SetUrl("~/OrchardCoreContrib.Themes.StylishPortfolio/css/styles.css")
+                .SetUrl("/OrchardCoreContrib.Themes.StylishPortfolio/css/styles.css")
                 .SetVersion("1.0.0");
 
             _manifest

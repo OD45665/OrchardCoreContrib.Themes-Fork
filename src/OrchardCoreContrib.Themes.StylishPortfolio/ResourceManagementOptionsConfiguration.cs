@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Options;
+
 using OrchardCore.ResourceManagement;
 
 namespace OrchardCoreContrib.Themes.StylishPortfolio

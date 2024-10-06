@@ -14,6 +14,12 @@ OD45665 hat folgende Fehler eröffnet:
 - https://github.com/OrchardCoreContrib/OrchardCoreContrib.Themes/issues/26
 
 
+## Zusätzliches Projekt
+### wwwroot
+wwwroot sind die Inhalte des wwwroot-Berzeichnisses in StylishPortfolio.
+Somit also die Original Bootstrap Website *index.html** zu Ansichts- 
+und Vergleichszwecken im Browser.
+
 ![Orchard Core Contrib](images/OCC.png)
 
 This repository contains a set of themes for [Orchard Core CMS](https://github.com/OrchardCMS/OrchardCore) that driven by the community members who love Orchard Core.
